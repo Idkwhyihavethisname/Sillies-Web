@@ -1,0 +1,92 @@
+body{
+
+    background-color:rgb(10, 10, 10);
+    animation-name: riseup;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+footer{
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    border-radius: 5px;
+    text-shadow: 3px 3px 15px rgb(245, 234, 234);
+    animation-name: riseup;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+#h0{
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-shadow: 3px 3px 15px rgb(255, 255, 255);
+    animation-name: riseup;
+    animation-duration: 2.3s;
+    animation-timing-function: ease-in-out;
+}
+#title{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    text-shadow: 3px 3px 30px rgb(255, 255, 255);
+    animation-name: riseup;
+    animation-duration: 2.2s;
+    animation-timing-function: ease-in-out;
+}
+#h1{
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    text-shadow: 3px 3px 15px rgb(255, 255, 255);
+    animation-name: riseup;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#p1{
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    text-shadow: 3px 3px 15px rgb(255, 255, 255);
+    animation-name: riseup;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+}
+#h2{
+    color: rgb(233, 209, 255);
+    font-family:monospace;
+    text-shadow: 3px 3px 15px rgb(233, 209, 255);
+    animation-name: riseup;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+}
+#p2{
+    color: rgb(233, 209, 255);
+    font-family:monospace;
+    text-shadow: 3px 3px 15px rgb(233, 209, 255);
+    animation-name: riseup;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+}
+
+img{
+    border: 3px solid rgb(196, 133, 255);
+    border-radius: 4px;
+    box-shadow: 3px 3px 400px rgb(196, 133, 255);
+    animation-name: riseup;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+video{
+    border: 3px solid rgb(223, 189, 255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 300px rgb(223, 189, 255);
+    animation-name: riseup;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes riseup{
+    from{transform: translateY(100%);}
+}
